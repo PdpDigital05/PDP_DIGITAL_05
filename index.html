@@ -42,7 +42,7 @@
                             <p>
                                 Este video detalla el objetivo relacionado a la vida submarina, en el cual se habla sobre la conservación y la utilización sostenible de los océanos y los recursos marinos, explicando su principal rol para el medio ambiente y las propuestas concretas especificadas en la agenda 2030.
                             </p>
-
+                           
                         </div>
                     </div>
                 </div>
@@ -345,7 +345,7 @@
                               El siguiente gráfico, muestra los porcentajes de los tipos de basura encontrados en el océano, en donde se evidencia que el plástico es el mayor producto encontrado.
                               ONU 2019 - muestras tomadas de diferentes partes del mundo.
                             </p>
-
+                           
                         </div>
                     </div>
                 </div>
@@ -355,10 +355,9 @@
                 <div class="container">
                     <div class="row py-5">
                         <div class="col-10 mx-auto mb-5 text-center">
-                            <p class="py-3"><i class="bi bi-emoji-sunglasses"></i></p>
+                            <p class="py-3"></p>
                             <p class="lead pb-5">
-                                Este es un texto de síntesis. Es un párrafo con la clase "lead". Busquen su definición en el CSS. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan est magna, ut sodales felis imperdiet
-                                eu. Duis ac neque at metus varius aliquet lacinia sit amet est.
+                                Es importante tomar conciencia acerca de las problemáticas señaladas anteriormente, e informarse sobre los objetivos de la ONU, para así hacerse responsables individual y colectivamente de las consecuencias que la contaminación puede generar, para así tomar acción, tanto en el mundo submarino, como en resto de nuestros ecosistemas.
                             </p>
                         </div>
                     </div>
@@ -370,29 +369,29 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center py-3">
-                        <h3>Más información</h3>
+                        <h3>MÁS INFORMACIÓN</h3>
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="card shadow-sm">
-                            <img src="img/relacion-16x9.png" class="card-img-top" alt="describa la imagen" />
+                            <img src="img/1.jpeg" class="card-img-top" alt="describa la imagen" />
                             <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. <a href="#" target="_blank">Visite…</a>.</p>
+                                <p class="card-text">Para más información, sobre este y más objetivos, ingresar al siguiente enlace, que te llevará a la página oficial de la ONU. <a href="https://www.un.org/sustainabledevelopment/es/oceans/" target="_blank">más información aquí</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="card shadow-sm">
-                            <img src="img/relacion-16x9.png" class="card-img-top" alt="describa la imagen" />
+                            <img src="img/2.jpeg" class="card-img-top" alt="describa la imagen" />
                             <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. <a href="#" target="_blank">Visite…</a>.</p>
+                                <p class="card-text">En este video, encontrarás información sobre todos los objetivos, qué son y cómo llegar a ellos para el año 2030 <a href="https://www.youtube.com/watch?v=MCKH5xk8X-g" target="_blank">más información aquí</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="card shadow-sm">
-                            <img src="img/relacion-16x9.png" class="card-img-top" alt="describa la imagen" />
+                            <img src="img/3.jpeg" class="card-img-top" alt="describa la imagen" />
                             <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. <a href="#" target="_blank">Visite…</a>.</p>
+                                <p class="card-text">Para conocer más en detalle el objetivo 14, revisar este PDF, que menciona en concreto estadísticas y mensajes claves sobre este. <a href="https://www.cepal.org/sites/default/files/static/files/ods14_c1900733_web.pdf" target="_blank">más información aquí</a></p>
                             </div>
                         </div>
                     </div>
@@ -437,11 +436,11 @@
             var nuestroGrafico = new Chart(ctx, {
                 type: "line",
                 data: {
-                    labels: ["Red", "Blue", "Yellow", "Green", "Cyan", "Magenta"],
+                    labels: ["material de pesca", "plástico", "metal", "vidrio", "otros"],
                     datasets: [
                         {
-                            label: "# of Votes",
-                            data: [12, 19, 3, 5, 2, 3],
+                            label: "229 buceos",
+                            data: [22, 28, 20, 16, 14],
                             backgroundColor: ["#FF0000", "#0000FF", "#FFFF00", "#00FF00", "#00FFFF", "#FF00FF"],
                             borderWidth: 1,
                         },
@@ -460,15 +459,17 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <!--ESTE ES EL SCRIPT PARA EL MODAL-->
         <script>
+
             // Tienen que editar los elementos dentro de la siguiente variable
             var integrantes = [
-                { nombre: "Nombre Apellido", descriptor: "Responsabilidad de integrante", foto: "img/relacion-3x4.png" },
-                { nombre: "Nombre Apellido", descriptor: "Responsabilidad de integrante", foto: "img/relacion-3x4.png" },
-                { nombre: "Nombre Apellido", descriptor: "Responsabilidad de integrante", foto: "img/relacion-3x4.png" },
-                { nombre: "Nombre Apellido", descriptor: "Responsabilidad de integrante", foto: "img/relacion-3x4.png" },
-                { nombre: "Nombre Apellido", descriptor: "Responsabilidad de integrante", foto: "img/relacion-3x4.png" },
-                { nombre: "Nombre Apellido", descriptor: "Responsabilidad de integrante", foto: "img/relacion-3x4.png" },
-                { nombre: "Nombre Apellido", descriptor: "Responsabilidad de integrante", foto: "img/relacion-3x4.png" },
+                { nombre: "Dominga Arteaga", descriptor: "Gráfica de la página y uso de tipografía", foto: "img/domingaa.jpeg" },
+                { nombre: "Lenka Atucha", descriptor: "Búsqueda y creación de gráficos ", foto: "img/lenka.jpeg" },
+                { nombre: "Florencia Caro", descriptor: "Programación de la página", foto: "img/florenciacaro.PNG" },
+                { nombre: "Colomba Costa", descriptor: "Generación de textos y búsqueda de información ", foto: "img/colomba.png" },
+                  { nombre: "María Josefa Sanchez", descriptor: "Gráfica de la página y uso del color", foto: "img/mariajosefa.jpeg" },
+                { nombre: "Dominga Teixidó", descriptor: "Generación de textos y búsqueda de información", foto: "img/dominga.png" }
+
+
             ];
             // No es necesario que editen lo que sigue
             for (let x = 0; x < integrantes.length; x++) {
